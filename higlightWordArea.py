@@ -20,13 +20,6 @@ def highlightWordArea(h, word):
     return height * width
 
 
-# Using ord function
-# def highlightWordArea(h, word):
-#     list_ord = [ord(x) - ord('a') for x in word]
-#     list_value = [h[x] for x in list_ord]
-#     return len(list_value) * max(list_value)
-
-
 # h = [1,3,1,3,1,4,1,3,2,5,5,5,5,1,1,5,5,1,5,2,5,5,5,5,5,5]
 # word = 'torn'
 
