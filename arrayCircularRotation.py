@@ -12,7 +12,7 @@ list queries:   indices of desired values
 
 def circularArrayRotation(a, k, queries):
     res = []
-    k = k % len(a) # this avoids repeating rotations, # rot < len(a)
+    k = k % len(a)  # ex: rot=2, len=5 -> k=2; rot=6, len=5 -> k=1
     arr = a[-k:] + a[:-k]
     for values in queries:
         res.append(arr[values])
