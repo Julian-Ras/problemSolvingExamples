@@ -26,6 +26,7 @@ def findDigitsStr(n):
             count += 1
     return count
 
+# Using num%10 to get last digit then int()/10 to remove last digit
 def findDigitsStrMod10(n):
     num = n
     result = 0
