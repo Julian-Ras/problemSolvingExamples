@@ -14,7 +14,7 @@ There are 4 occurrences of a in the substring.
 def repeatedString(s, n):
     count = 0
     count2 = 0
-    for char in s:
+    for char in s:           # counting manually instead of s.count("a")
         if char == "a":
             count += 1
     subStr = (n//len(s))
